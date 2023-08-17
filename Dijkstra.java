@@ -45,9 +45,9 @@ public class Dijkstra {
 		int i;
 		for(i=0;i<n;i++) {
 			if(i!=s) {
-				System.out.println(s+" ");
+				System.out.print(s+" ");
 				path(i,s);
-				System.out.println("="+d[i]+" ");
+				System.out.println("= "+d[i]+" ");
 				System.out.println();
 			}
 		}
